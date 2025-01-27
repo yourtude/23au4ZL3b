@@ -1,0 +1,143 @@
+
+GUI and Equipments
+
+To access the GUI on your patient, you must first go into first person, approach and look at the patient, and press LCTRL on your keyboard, click medical and finally click their name.
+
+Symptoms that you must deal with will be indicated on the right hand side of the medical GUI.
+
+Red symptoms are generally more urgent.
+
+Additionally, a blood bar lets you know how much blood your patient has. If it falls to 0, your patient is completely dead and you have failed.
+
+A green cross bar represents your patient’s vitality. An empty green cross means your patient is cardiovascularly dead and requires resuscitation.
+
+Airway section - Here you will find two tubes (endotracheal and nasopharyngeal) that you can insert through the patient's nose or mouth to keep the trachea open. 
+
+These can also connect to devices which deliver air or oxygen to the patient.
+
+Breathing section - Here you will find oxygen tanks and non-rebreathers used alongside endotracheal and nasopharyngeal tubes respectively to ensure oxygen supply to an unconscious patient.
+
+Circulation section -  This section contains tools to temporarily or fully stop bleeding and replenish blood.
+
+Tourniquets are to be used in cases of heavy bleeding (surgical procedures), whilst gauze is to be used in more minor procedures.
+
+ Blood bags are to be used to replenish blood levels of the patient after completing all other medical procedures.
+
+Medicine and Splint section - You will find all your medicines and your splints in this section. This section is primarily used for the post-surgery procedures.
+
+Before attempting to administer any medicine, be sure to apply an IV starter kit, also found in this section. Without it, you will be unable to administer anything.
+
+E-medicine is used to make patients conscious if they are unconscious or following surgery.
+M-medicines is used as a painkiller to deal with varying levels of pain symptoms.
+Anesthetic is used to knock patients unconscious in order to perform surgery.
+Splints are used to deal with the ‘’Injured’’ symptom, by temporarily restoring musculoskeletal function.
+
+Resuscitation section - Here, you will find chest compressions and a defibrillator. 
+
+Both are used to restore cardiovascular function to the patient and cure the ‘’dead’’ symptom.
+
+Surgery section- Here you will find all necessary equipment to perform regular and critical surgery.
+The scalpel is used to open or reopen a wound in order to start surgery.
+The suction is used to suction all fluids from the wound in order to properly insert a catheter or clamp the wound.
+The Catheter is the first tool used to sterilize and clear the operating field.
+The balloon is the second tool used to sterilize and clear the operating field.
+The 6-0 prolene stitch is the regular stitch used for surgical procedures to close up the wound.
+The 5-0 prolene stitch is the critical stitch used for critical surgical procedures to close up a critical wound.
+The clamp is used to clamp down a wound in order to allow for the use of the 5-0 prolene stitch. It is solely used in critical procedures.
+4-0 nylon is the surgical applicator used to seal a wound and complete any surgical procedure.
+
+
+
+Pre-surgery procedures.
+These procedures are to be performed regardless of which type of surgery is being completed.
+
+First, apply a tourniquet to stop the bleeding. ‘’Tourniquet’’ should now be displayed on the GUI instead of ‘’Bleeding’’.
+
+If the patient is still conscious, attach an IV found in Medicine and Splint and apply anesthetic to knock the patient unconscious.
+
+If the patient is unconscious, skip to the next step.
+
+Apply an endotracheal tube in the Airway Section. ‘’ET tube’’ should now be displayed on the GUI.
+
+Apply an O2 tank in the Breathing Section. ‘’O2 tank’’ should now be displayed on the GUI instead of ‘’ET tube’’.
+
+If this isn’t already done, apply an IV Starter Kit found in ‘’Medicine and Splint’’.
+This concludes the pre-surgery procedures.
+
+
+
+Surgery procedures.
+
+Note that the ‘’critical’’ surgery procedure is the surgical procedure preceded by extra steps rather than a standalone procedure.
+
+If your patient’s GUI shows ‘’Critical’’, you must complete these steps before completing the surgical procedure.
+
+First, open the wound using the scalpel found in ‘’Surgery’’. The GUI should say ‘’Open.’’
+
+The next steps require precise coordination between the main medic and their nurse.
+
+They need to be done successively without delay.
+
+Suction the wound using the suction found in ‘’Surgery’’. The GUI should say ‘’Suctioning’’.
+
+Once ‘’Suctioning’’ appears on the patient’s GUI, the nurse should immediately apply a clamp, found in ‘’Surgery’’. The GUI should say ‘’Clamped.’’
+	
+Once you, the main medic, see ‘’Clamped’’ on the GUI, apply 5-0 prolene found in ‘’Surgery’’. The GUI should now say ‘’Sutured’’.
+
+The above procedures must be completed immediately following their previous procedure or it will not work. 
+
+If the correct indicator is not shown on the GUI, it means you were not fast enough and you must restart from suction.
+
+The final step of the critical part of the procedure is to apply 4-0 Nylon found in ‘’Surgery’’. The GUI should now say ‘’Surgical’’.
+
+If you have completed the above steps or if you only need to do a regular surgery procedure (identified by the ‘’Surgical’’ indicator in the GUI), you must complete the following steps:
+
+
+Use the scalpel found in ‘’Surgery’’ to open the wound. The GUI should display ‘’Open’’.
+
+Suction the wound using the suction in ‘’Surgery’’. The GUI should display ‘’Suctioning’’.
+
+Your assistant must immediately insert the catheter found in ‘’Surgery’’. The GUI should display ‘’Catheter Inserted’’.
+
+
+Insert the balloon found in ‘’Surgery’’. The GUI should display ‘’Balloon Occlusion’’.
+
+Apply the 6-0 prolene stitch found in ‘’Surgery’’. The GUI should display ‘’Sutured’’.
+
+Remove the Balloon.
+
+ The GUI should display ‘’Catheter Inserted’’
+
+Remove the Catheter. 
+
+The GUI should display ‘’Open.’’
+
+Apply the 4-0 nylon applicator found in ‘’Surgery’’. The GUI should now display nothing related to surgery.
+
+
+
+Post-surgery procedures. 
+
+These procedures are used to solve any extraneous symptoms remaining after surgery.
+
+Note that to remove anything, you simply press on the button associated with it, like during its application.
+
+First, remove the tourniquet found in ‘’Circulation’’. The GUI should display no bleeding and remove the ‘’Tourniquet’’ message.
+
+Next, apply E-medicine found in ‘’Medicine and Splint’’ to make the patient conscious. The GUI should display ‘’Conscious’’.
+
+If the GUI displays ‘’Injured’’, apply a splint, found in ‘’Medicine and Splint’’. This should remove the ‘’Injured’’ message from the GUI.
+
+Apply M-mdedicine, found in ‘’Medicine and splint’’ until the pain indicator on the GUI displays ‘’No pain’’.
+
+Apply blood bags, found in ‘’Circulation’’, until the blood bar (red droplet) is full.
+
+Remove the IV starter kit, found in ‘’Medicine and Splint’’. The ‘’IV starter kit’’ should disappear from the GUI.
+
+Remove the O2 tank, found in ‘’Breathing’’. The GUI should display ‘’ET tube’’.
+
+Remove the Endotracheal tube. 
+
+This can be found in “Airway”
+
+The GUI should no longer display ‘’ET tube’’.
